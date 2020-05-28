@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verify user is able to login to application successfully with valid credentials",
+        "description": "",
+        "id": "login;verify-user-is-able-to-login-to-application-successfully-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7084980901,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is in login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2002991000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69801,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
